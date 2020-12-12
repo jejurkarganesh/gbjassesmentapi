@@ -30,3 +30,15 @@ Run the development server
 Visit http://localhost:8000/admin. Login with superuser credentials. Add some categories, questions and choices. Create a quiz using the command -
     ```python manage.py prepare_random_quiz```
 
+API EndPoints:
+
+To register user
+```http://localhost:8000/accounts/register/```
+
+To start Quiz
+
+```http://localhost:8000/quiz/start/```
+
+Swagger link
+```http://localhost:8000/swagger```
+
